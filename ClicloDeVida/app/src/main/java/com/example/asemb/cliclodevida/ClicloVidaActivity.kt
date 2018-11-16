@@ -2,6 +2,7 @@ package com.example.asemb.cliclodevida
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import android.util.Log
 import kotlinx.android.synthetic.main.activity_cliclo_vida.*
 
@@ -50,8 +51,16 @@ class ClicloVidaActivity : AppCompatActivity() {
         Log.i("ciclo-vida","On Destroy")
 
     }
+    override  fun onRestart(){
+        super.onRestart()
+        Log.i("ciclo-vida","On Restart")
 
+    }
 
+    override fun onSaveInstanceState(outState: Bundle?) {
+        super.onSaveInstanceState(outState)
+        Log.i("ciclo-vida","On onSaveInstanceState")
+    }
 
 
 }
