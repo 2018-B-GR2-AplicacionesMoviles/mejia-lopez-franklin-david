@@ -7,13 +7,15 @@ import java.util.Date
 
 fun main(args: Array<String>){
 
+
+
     println("Hola mundo")
 
     // Int edad = 29;
 
     // Mutable -> Cambiarse / Reasignar
 
-    var edad: Int = 29
+    var edad:Int ="Hola"
 
     edad = 10
 
@@ -68,7 +70,7 @@ fun calcularSueldo(bono: Double): Double{
     return sueldo + bono
 }
 
-fun saludar(): Unit{
+fun saludar(){
     println("Hola mundo")
 }
 

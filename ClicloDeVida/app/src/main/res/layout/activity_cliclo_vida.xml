@@ -19,8 +19,22 @@
             android:text="Contador"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/c_Contador" app:layout_constraintStart_toStartOf="@+id/text_Contador"
-            app:layout_constraintEnd_toEndOf="@+id/text_Contador" android:layout_marginTop="8dp"
+            android:id="@+id/c_Contador"
+            android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/text_Contador" android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.475"
+            app:layout_constraintStart_toStartOf="@+id/text_Contador"
+            app:layout_constraintEnd_toEndOf="@+id/text_Contador"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:id="@+id/button3"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/text_Contador" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.152" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/text_Contador"/>
+
 </android.support.constraint.ConstraintLayout>
