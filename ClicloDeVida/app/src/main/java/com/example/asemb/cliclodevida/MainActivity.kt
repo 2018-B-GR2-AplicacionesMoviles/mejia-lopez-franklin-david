@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, listItems)
         listView.adapter = adapter
-        
+
         val adaptadorUsuarios= ArrayAdapter<User>(this,
             android.R.layout.simple_spinner_item,
             arregloUsuarios)
