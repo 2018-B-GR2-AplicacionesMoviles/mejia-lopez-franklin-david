@@ -51,6 +51,9 @@ class MainActivity : AppCompatActivity() {
         b_Parce_Act.setOnClickListener {
             this.irActividadParcelableIntent()
         }
+        buttonRecView.setOnClickListener {
+            this.irAReciclerView()
+        }
 
 
 
@@ -58,6 +61,11 @@ class MainActivity : AppCompatActivity() {
 
     fun irACicloDeVida(){
         val irACV=Intent(this,ClicloVidaActivity::class.java)
+        this.startActivity(irACV)
+
+    }
+    fun irAReciclerView(){
+        val irACV=Intent(this,ReciclerViewActivity::class.java)
         this.startActivity(irACV)
 
     }

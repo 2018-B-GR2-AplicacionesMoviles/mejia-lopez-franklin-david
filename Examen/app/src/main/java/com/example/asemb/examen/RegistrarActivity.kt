@@ -48,6 +48,7 @@ class RegistrarActivity : AppCompatActivity() {
             }
             fun eliminarDatos(producto:String){
                 Producto.clear()
+
             }
         }
 

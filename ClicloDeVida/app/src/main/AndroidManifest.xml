@@ -22,6 +22,8 @@
         </activity>
         <activity android:name=".AdaptadorActivity">
         </activity>
+        <activity android:name=".ReciclerViewActivity">
+        </activity>
     </application>
 
 </manifest>

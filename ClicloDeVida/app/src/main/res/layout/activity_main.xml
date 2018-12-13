@@ -12,7 +12,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0">
 
         <Button
                 android:text="Button"
@@ -20,8 +21,9 @@
                 android:layout_height="wrap_content" android:id="@+id/b_CicloDeVida"
                 android:layout_marginBottom="8dp"
                 android:layout_below="@+id/b_Parce_Act"
-                android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="parent"/>
+                android:layout_marginTop="21dp"
+                app:layout_constraintTop_toTopOf="parent" android:layout_alignParentStart="true"
+                android:layout_marginStart="17dp"/>
         <Button
                 android:text="Parce"
                 android:layout_width="wrap_content"
@@ -53,5 +55,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_below="@+id/b_CicloDeVida"
                 app:layout_constraintTop_toTopOf="parent"/>
+        <Button
+                android:text="R View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true" android:layout_marginEnd="52dp" android:id="@+id/buttonRecView"
+                android:layout_marginTop="87dp"/>
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
